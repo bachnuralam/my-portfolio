@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">Your Name</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Hi, I'm <span class="highlight">[Your Name]</span> 👋</h1>
+        <h2>AIESEC Leader & [Your Field/Role] Intern</h2>
+        <p>Passionate about youth leadership, cross-cultural collaboration, and driving tangible impact through strategic initiatives.</p>
+        <div class="hero-buttons">
+          <a href="#experience" class="btn btn-primary">View Experience</a>
+          <a href="assets/resume.pdf" class="btn btn-secondary" target="_blank">Download Resume</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <!-- Replace src with your image path later -->
+        <img src="https://via.placeholder.com/300" alt="Your Name" id="profile-pic" />
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p class="about-text">
+        I am a dedicated student/graduate with a track record of driving leadership in global youth-led organizations and contributing to fast-paced team environments during my internships. My experience in **AIESEC** taught me resilience, team management, and cross-cultural communication, while my internship roles refined my technical and business skills.
+      </p>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">Experience & Leadership</h2>
+      
+      <!-- Experience Filter Tabs -->
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="aiesec">AIESEC</button>
+        <button class="filter-btn" data-filter="internship">Internships</button>
+      </div>
+
+      <div class="timeline">
+
+        <!-- Experience Item 1: Internship -->
+        <div class="timeline-item" data-category="internship">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Jun 2024 – Sep 2024</span>
+            <h3>[Role Title, e.g., Marketing Intern]</h3>
+            <h4>[Company Name]</h4>
+            <ul>
+              <li>Assisted in strategic planning and campaign execution resulting in a 20% increase in engagement.</li>
+              <li>Collaborated with cross-functional teams to deliver key project milestones on time.</li>
+              <li>Analyzed key operational metrics to present actionable insights to senior management.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Experience Item 2: AIESEC Executive / Leadership -->
+        <div class="timeline-item" data-category="aiesec">
+          <div class="timeline-dot aiesec-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Feb 2023 – Jan 2024</span>
+            <h3>[Vice President / Team Leader - e.g., Talent Management]</h3>
+            <h4>AIESEC in [Your Local Committee/Entity]</h4>
+            <ul>
+              <li>Led a team of [X] members to deliver exchange/membership growth initiatives.</li>
+              <li>Managed national recruitment campaigns, recruiting over [X] new members.</li>
+              <li>Facilitated leadership workshops and team-building sessions for members across the entity.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Experience Item 3: AIESEC Team Member / Coordinator -->
+        <div class="timeline-item" data-category="aiesec">
+          <div class="timeline-dot aiesec-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Feb 2022 – Jan 2023</span>
+            <h3>[Team Member / Organizing Committee President]</h3>
+            <h4>AIESEC in [Your Local Committee/Entity]</h4>
+            <ul>
+              <li>Organized youth leadership conferences hosting over [X] delegates.</li>
+              <li>Facilitated cross-cultural exchanges and incoming global volunteer programs.</li>
+              <li>Boosted member retention by implementing regular feedback cycles.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">Key Competencies</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fas fa-users-gear"></i>
+          <h3>Leadership & Team Management</h3>
+          <p>Fostered in AIESEC through managing teams, goal-setting, and performance tracking.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-globe"></i>
+          <h3>Cross-Cultural Communication</h3>
+          <p>Collaborated across international networks and managed diverse stakeholder relations.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-chart-line"></i>
+          <h3>Project & Event Management</h3>
+          <p>Executed large-scale youth projects, conferences, and corporate internships deliverables.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-lightbulb"></i>
+          <h3>Problem Solving & Strategy</h3>
+          <p>Data-driven decision making and strategic planning for growth initiatives.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section bg-light">
+    <div class="container text-center">
+      <h2 class="section-title">Get In Touch</h2>
+      <p>Feel free to reach out for collaborations, leadership discussions, or career opportunities!</p>
+      <div class="contact-links">
+        <a href="mailto:your.email@example.com" class="contact-btn"><i class="fas fa-envelope"></i> Email Me</a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="https://github.com/yourusername" target="_blank" class="contact-btn"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Your Name. Built with GitHub Pages.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
